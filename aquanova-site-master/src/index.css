@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Istok Web", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-istok: "Istok Web", sans-serif;
+  --background-fade: linear-gradient(to bottom, #1a1a1a, #1f1f1f, #2a2a2a, #333333);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f4f7fb;
+  color: #0A1A2F;
+}
+
+.dark body {
+  background: #050816;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+::selection {
+  background: rgba(10, 42, 131, 0.18);
+}
+
+a {
+  text-decoration: none;
+}
