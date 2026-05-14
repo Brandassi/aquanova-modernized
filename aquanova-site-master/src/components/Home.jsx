@@ -79,9 +79,7 @@ export function Home() {
 
         <section className="mx-auto grid max-w-7xl gap-10 px-4 pb-16 pt-10 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:pt-16">
           <div className="space-y-8">
-            <div className="inline-flex items-center rounded-full border border-[#0A2A83]/10 bg-white/80 px-4 py-2 text-sm font-medium text-[#0A2A83] shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/5 dark:text-white">
-              Projeto de dessalinização solar
-            </div>
+            
 
             <div className="space-y-5">
               <h1 className="max-w-3xl text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
@@ -93,20 +91,7 @@ export function Home() {
               </p>
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-3">
-              <div className="rounded-[1.5rem] border border-[#d7e0f5] bg-white p-4 shadow-sm dark:border-white/10 dark:bg-white/5">
-                <p className="text-sm font-semibold text-[#0A2A83] dark:text-white">Monitoramento</p>
-                <p className="mt-1 text-sm text-[#0A1A2F]/70 dark:text-white/70">Leitura em tempo real</p>
-              </div>
-              <div className="rounded-[1.5rem] border border-[#d7e0f5] bg-white p-4 shadow-sm dark:border-white/10 dark:bg-white/5">
-                <p className="text-sm font-semibold text-[#0A2A83] dark:text-white">Energia solar</p>
-                <p className="mt-1 text-sm text-[#0A1A2F]/70 dark:text-white/70">Autonomia off-grid</p>
-              </div>
-              <div className="rounded-[1.5rem] border border-[#d7e0f5] bg-white p-4 shadow-sm dark:border-white/10 dark:bg-white/5">
-                <p className="text-sm font-semibold text-[#0A2A83] dark:text-white">Baixa manutenção</p>
-                <p className="mt-1 text-sm text-[#0A1A2F]/70 dark:text-white/70">Projeto simplificado</p>
-              </div>
-            </div>
+            
 
             <div className="flex flex-wrap gap-4">
               <Link
@@ -130,13 +115,6 @@ export function Home() {
 
             <div className="relative overflow-hidden rounded-[2.25rem] border border-[#d7e0f5] bg-white p-5 shadow-[0_24px_90px_rgba(10,26,47,0.12)] dark:border-white/10 dark:bg-white/5">
               <img src={robo} alt="Protótipo AquaNova" className="h-[28rem] w-full rounded-[1.75rem] object-cover" />
-
-              <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
-                <span className="rounded-full bg-[#f3f7ff] px-4 py-2 text-center text-xs font-semibold text-[#0A2A83] dark:bg-white/10 dark:text-white">Solar</span>
-                <span className="rounded-full bg-[#f3f7ff] px-4 py-2 text-center text-xs font-semibold text-[#0A2A83] dark:bg-white/10 dark:text-white">IoT</span>
-                <span className="rounded-full bg-[#f3f7ff] px-4 py-2 text-center text-xs font-semibold text-[#0A2A83] dark:bg-white/10 dark:text-white">Didático</span>
-                <span className="rounded-full bg-[#f3f7ff] px-4 py-2 text-center text-xs font-semibold text-[#0A2A83] dark:bg-white/10 dark:text-white">Escalável</span>
-              </div>
             </div>
           </div>
         </section>
